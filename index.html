@@ -270,7 +270,6 @@ function toggleMenu(id) {
       
       <div id="wifi-info" style="display:none; background: #fff; padding: 10px; border-radius: 5px;">
         <p></strong> Você nâo está conectado ao nosso ponto de Wi-Fi</p>
-        <p style="font-size: 0.8em; color: #555;">(Copie a senha e troque de rede)</p>
       </div>
 
       <button onclick="liberarSenha()" class="btn" style="background-color: #007bff; width: 100%; cursor: pointer;">
@@ -282,15 +281,16 @@ function toggleMenu(id) {
       function liberarSenha() {
         // Simples script para mostrar a div oculta
         document.getElementById('wifi-info').style.display = 'block';
-        alert("Senha Liberada! Conecte na rede 'SantoExpedito_TURBO' para ter internet.");
+        alert("Você não está conectado ao nosso ponto de Wi-Fi.");
       }
     </script>
 
   <footer>
-    <p>Conectado via Hotspot Local Inteligente</p>
+    <p>Conectado via Site</p>
     <p>Powered by Celso Junior</p>
   </footer>
 
 </body>
 
 </html>
+
